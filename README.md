@@ -1,4 +1,4 @@
-# MiaPlatform Typescript Template
+# MiaPlatform Go Template with Huma
 
 ## Summary
 
