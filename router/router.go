@@ -18,7 +18,7 @@ func SetupRouter(envs config.Envs, log *logrus.Logger, handlers *controllers.Han
 	middlewares.SetLogging(router, log)
 
 	// Init Huma
-	humaConfig := huma.DefaultConfig("My API v2", envs.ServiceVersion)
+	humaConfig := huma.DefaultConfig("mia_template_service_name_placeholder", envs.ServiceVersion)
 	humaConfig.DocsPath = "/documentation/"
 	humaConfig.OpenAPIPath = "/documentation/openapi"
 	humaConfig.CreateHooks = make([]func(huma.Config) huma.Config, 0)
