@@ -28,6 +28,12 @@ To start the development server, execute this command:
 make
 ```
 
+## OpenAPI
+
+Once running, head to `http://localhost:3000/documentation/` to navigate the APIs.
+
+You can also download the openapi spec in both json and yaml format from `http://localhost:3000/documentation/openapi.[json/yaml]`
+
 ## Contributing
 
 [git-link]: <replace with your git link>
